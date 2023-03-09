@@ -1,5 +1,7 @@
 package com.rodrigo.model;
 
+import java.util.Optional;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -18,6 +20,13 @@ public class UserRegister {
     private String name;
     
     private String email;
+
+
+    public static Optional<UserRegister> findById(String loginId2) {
+        return null;
+    }
+
+
 
 
 
